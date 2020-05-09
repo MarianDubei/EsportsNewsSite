@@ -1,0 +1,39 @@
+body {
+	height:100%;
+	width:100%;
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+    overflow-x: hidden;
+}
+
+#root {
+	height:100%;
+	width:100%;
+}
+
+div {
+	display: flex;
+}
+
+a {
+  	text-decoration: none;
+}
+
+.container {
+	height:100%;
+	width:100%;
+	flex-direction: column;
+}
+
+.content {
+	flex-direction: row;
+	width: 1200px;
+	height: auto;
+	margin: 130px auto 0 auto;
+
+}
+
+h1, h2, h3,  p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
