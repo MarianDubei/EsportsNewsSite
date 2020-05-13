@@ -1,0 +1,17 @@
+.main-article {
+	width: 700px;
+	flex-direction: column;
+
+}
+
+.main-article h1 {
+	display: block;
+	margin: 40px 40px 40px 40px; 
+}
+
+.main-article p {
+	display: block;
+	font-size: 24px;
+	margin-left: 40px;
+	margin-right: 40px;
+}

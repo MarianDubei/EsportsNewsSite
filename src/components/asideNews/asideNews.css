@@ -1,0 +1,14 @@
+.aside-latest-articles {
+	width: 200px;
+	flex-direction: column;
+}
+
+.article-text h4:hover {
+	color: #132f63;
+}
+
+.article-text h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;	
+	color: black;
+}
