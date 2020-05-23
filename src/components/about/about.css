@@ -1,0 +1,23 @@
+.contact {
+	width: 300px;
+	margin:0 auto;
+	flex-direction: column;
+}
+
+.contact-header {
+	width: 100%;
+	height: auto;
+	border-bottom: 3px solid black;
+}
+
+.contact-field {
+	margin-top: 10px;
+	padding-bottom: 10px;
+	width:100%;
+	height: auto;
+	border-bottom: 1px solid #696969;
+}
+
+.contact-field a, .contact-field-email {
+	margin-left: auto;
+}
