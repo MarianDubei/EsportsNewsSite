@@ -1,21 +1,29 @@
 import React from 'react';
 import AsideNews from '../asideNews';
-import MatchBig from "./matchbig"
-import './schedule.css'
+import MatchBig from "./matchBig";
+import './schedule.css';
+import { connect } from 'react-redux';
 
-export default class Schedule extends React.Component {
+class Schedule extends React.Component {
 
 	render() {
 		const { articles, matches } = this.props;
 		return (
 			<div className="content">
-				<AsideNews articles={articles}/>
+				<AsideNews/>
 				<div className="main-matches">
 					{matches.map((match) => (
-						<MatchBig key={match.id} matchBigDict={match}/>
+						<MatchBig key={match.id} matchBigData={match}/>
 					))}
 				</div>
 			</div>
 		);
 	}
 }
+
+const mapStateToProps = (state) => ({
+  articles: state.articles,
+  matches: state.matches,
+});
+
+export default connect(mapStateToProps, null)(Schedule);

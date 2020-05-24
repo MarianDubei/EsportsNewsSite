@@ -1,9 +1,10 @@
 import React from 'react';
-import ArticleMedium from "./articlemedium"
+import ArticleMedium from "./articleMedium"
 import { Link } from 'react-router-dom';
 import './sectionNews.css'
+import { connect } from 'react-redux';
 
-export default class SectionNews extends React.Component {
+class SectionNews extends React.Component {
 
   render() {
     const { articles, topArticle } = this.props;
@@ -26,7 +27,7 @@ export default class SectionNews extends React.Component {
               <h2>LATEST</h2>
             </div>
             {articles.map((article) => (
-              <ArticleMedium key={article.id} articleMediumDict={article}/>
+              <ArticleMedium key={article.id} articleMediumData={article}/>
             ))}
           </div>
 
@@ -35,7 +36,7 @@ export default class SectionNews extends React.Component {
               <h2>TRENDING</h2>
             </div>
             {trendingArticles.map((article) => (
-              <ArticleMedium key={article.id} articleMediumDict={article}/>
+              <ArticleMedium key={article.id} articleMediumData={article}/>
             ))}
           </div>
         </div>
@@ -44,3 +45,10 @@ export default class SectionNews extends React.Component {
     );
   }
 }
+
+const mapStateToProps = (state) => ({
+  articles: state.articles,
+  topArticle: state.topArticle,
+});
+
+export default connect(mapStateToProps, null)(SectionNews);

@@ -1,7 +1,7 @@
 .main {
 	width: 900px;
 	height: auto;
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
 	flex-direction: column;
 }
 
