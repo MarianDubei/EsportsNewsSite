@@ -66,6 +66,13 @@ export default class Header extends React.Component {
             </Link>
           </div>
           <div className="main-link-wrapper">
+            <div className="search-container">
+              <form action="/search" method="get">
+                <input className="search expandright" id="searchright" type="search" name="q" placeholder="Search news"/>
+                <input className="searchsubmit" type="submit" value=""/>
+                <label className="button searchbutton" htmlFor="searchright"><span class="mglass">&#9906;</span></label>
+              </form>
+            </div>
             {mainlinks.map((mainlink) => (
               <div className="main-link">
                 <NavLink key={mainlink.id} to={mainlink.link} activeClassName="selected">{mainlink.text}</NavLink>

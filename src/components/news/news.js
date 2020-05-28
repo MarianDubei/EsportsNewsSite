@@ -7,52 +7,20 @@ import ArticleBig from "./articlebig"
 
 export default class News extends React.Component {
 
-	constructor() {
-	    super();
-	    this.state = {
-
-	    	articlesTitles: [
-	    	{
-	    		title: "Dota 2's The International 10 delayed until 'likely' 2021",
-				game: "DOTA 2",
-				img: "https://img.resized.co/dexerto/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5kZXhlcnRvLmNvbVxcXC91cGxvYWRzXFxcLzIwMjBcXFwvMDVcXFwvMDEwMDU4MjdcXFwvdGkxMC1jYW5jZWxlZC5qcGdcIixcIndpZHRoXCI6OTMwLFwiaGVpZ2h0XCI6NTIwLFwiZGVmYXVsdFwiOlwiaHR0cHM6XFxcL1xcXC9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbVxcXC9wcGx1cy5pbWFnZXMuZGV4ZXJ0by5jb21cXFwvdXBsb2Fkc1xcXC8yMDE5XFxcLzExXFxcLzExMjE0OTQzXFxcL3BsYWNlaG9sZGVyLmpwZ1wifSIsImhhc2giOiJiMmQ3ZmEyOTAyYTY0YzI3M2U5ZWU0OWZmYmYwODdiZmNiNzBiZGI0In0=/dota-2-s-the-international-10-delayed-until-likely-2021.jpg",
-				gameLink: "/dota-2",
-				articleLink: "/dota-2s-the-international-10-delayed",
-				time: "2 Apr 14:30",
-	    	},
-	    	{
-	    		title: "Leaked CSGO source code could lead to more hacks & cheats",
-				game: "CS:GO",
-				img: "https://img.resized.co/dexerto/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5kZXhlcnRvLmNvbVxcXC91cGxvYWRzXFxcLzIwMjBcXFwvMDRcXFwvMjIyMDA4MDdcXFwvbGVha2VkLWNzZ28tc291cmNlLWNvZGUtY291bGQtbGVhZC10by1tb3JlLWhhY2tzLWNoZWF0cy5qcGdcIixcIndpZHRoXCI6NjAwLFwiaGVpZ2h0XCI6MzM2LFwiZGVmYXVsdFwiOlwiaHR0cHM6XFxcL1xcXC9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbVxcXC9wcGx1cy5pbWFnZXMuZGV4ZXJ0by5jb21cXFwvdXBsb2Fkc1xcXC8yMDE5XFxcLzExXFxcLzExMjE0OTQzXFxcL3BsYWNlaG9sZGVyLmpwZ1wifSIsImhhc2giOiJlZTE5YzgwMDExOTVlMGVkYWY4MTgwNGMwZGEyOWJjZGMyYTU5OGU4In0=/leaked-csgo-source-code-could-lead-to-more-hacks-cheats.jpg",
-				gameLink: "/counter-strike",
-				articleLink: "/leaked-csgo-source-code-could-lead-to-more-hacks-n-cheats",
-				time: "",
-	    	},
-	    	{
-	    		title: "",
-				game: "",
-				img: "",
-				gameLink: "",
-				articleLink: "",
-				time: "",
-	    	}
-	    	]
-
-	    }	    
-	}
-
 	render() {
-		const { game } = this.props;
+		const { articles, matches } = this.props;
+
 		return (
 
 			<div className="content">
 				<div className="news-big">
-					{this.state.articlesTitles.filter((article) => article.gameLink.includes(game) || !game ).map((article) => (
+
+					{articles.map((article) => (
 					  <ArticleBig key={article.id} articleBigDict = {article} />
 					))}
 				</div>
 
-				<AsideSchedule/>
+				<AsideSchedule matches={matches}/>
 			</div>
 		);
 	}

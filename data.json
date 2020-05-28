@@ -1,0 +1,54 @@
+{
+	"articles": [
+	    	{
+	    		"id": 1,
+				"game": "CS:GO",
+				"gameLink": "/counter-strike",
+				"articleLink": "/leaked-csgo-source-code-could-lead-to-more-hacks-n-cheats",
+	    		"title": "Leaked CSGO source code could lead to more hacks & cheats",
+				"text": "Exposure for leaked source code to Counter-Strike: Global Offensive and Team Fortress 2 has experts concerned that it could possibly lead to cheats, exploits, and a fastrack to Valve’s Source 2. Though an outdated model, source code for Valve’s beloved FPS title has been getting shared online. This gives everyone from CSGO enthusiasts to malicious actors a way to “literally build the game,” according to ‘2Eggss,’ an ethical hacker and Steamworks developer. To be clear, everything that hackers and exploit makers needed to make cheats in CSGO was already out in the wild, which is why services like the Valve anti-cheat (VAC) system exist to try to thwart any potential hacks that may come out of them.",	    	
+				"img": "https://img.resized.co/dexerto/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5kZXhlcnRvLmNvbVxcXC91cGxvYWRzXFxcLzIwMjBcXFwvMDRcXFwvMjIyMDA4MDdcXFwvbGVha2VkLWNzZ28tc291cmNlLWNvZGUtY291bGQtbGVhZC10by1tb3JlLWhhY2tzLWNoZWF0cy5qcGdcIixcIndpZHRoXCI6NjAwLFwiaGVpZ2h0XCI6MzM2LFwiZGVmYXVsdFwiOlwiaHR0cHM6XFxcL1xcXC9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbVxcXC9wcGx1cy5pbWFnZXMuZGV4ZXJ0by5jb21cXFwvdXBsb2Fkc1xcXC8yMDE5XFxcLzExXFxcLzExMjE0OTQzXFxcL3BsYWNlaG9sZGVyLmpwZ1wifSIsImhhc2giOiJlZTE5YzgwMDExOTVlMGVkYWY4MTgwNGMwZGEyOWJjZGMyYTU5OGU4In0=/leaked-csgo-source-code-could-lead-to-more-hacks-cheats.jpg",
+				"time": "3 Apr 12:00",
+				"likes": 10
+	    	},
+	    	{
+	    		"id": 2,
+				"game": "DOTA 2",
+				"gameLink": "/dota-2",
+				"articleLink": "/dota-2s-the-international-10-delayed",
+	    		"title": "Dota 2's The International 10 delayed until 'likely' 2021",
+				"text": "Dota 2’s TI10, set to be held in Stockholm, Sweden, in August, will be delayed until “likely” 2021, although no dates have been locked in as of yet. Dota 2 fans will have to wait another few months for The International this year. The multi-million dollar tournament has been delayed indefinitely, although it’s “likely” the date will be pushed back into 2021. The Battle Pass, alongside other rewards associated with the event, have also been postponed. In an announcement on April 30, Valve noted that it was almost impossible to commit to their August date given the current global situation.",
+				"img": "https://img.resized.co/dexerto/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5kZXhlcnRvLmNvbVxcXC91cGxvYWRzXFxcLzIwMjBcXFwvMDVcXFwvMDEwMDU4MjdcXFwvdGkxMC1jYW5jZWxlZC5qcGdcIixcIndpZHRoXCI6OTMwLFwiaGVpZ2h0XCI6NTIwLFwiZGVmYXVsdFwiOlwiaHR0cHM6XFxcL1xcXC9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbVxcXC9wcGx1cy5pbWFnZXMuZGV4ZXJ0by5jb21cXFwvdXBsb2Fkc1xcXC8yMDE5XFxcLzExXFxcLzExMjE0OTQzXFxcL3BsYWNlaG9sZGVyLmpwZ1wifSIsImhhc2giOiJiMmQ3ZmEyOTAyYTY0YzI3M2U5ZWU0OWZmYmYwODdiZmNiNzBiZGI0In0=/dota-2-s-the-international-10-delayed-until-likely-2021.jpg",
+				"time": "2 Apr 14:30",
+				"likes": 20
+	    	}
+	    	],
+	"topArticle": 
+      {
+          "title": "Dota 2's The International 10 delayed until 'likely' 2021",
+          "img": "https://img.resized.co/dexerto/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5kZXhlcnRvLmNvbVxcXC91cGxvYWRzXFxcLzIwMjBcXFwvMDVcXFwvMDEwMDU4MjdcXFwvdGkxMC1jYW5jZWxlZC5qcGdcIixcIndpZHRoXCI6NjIwLFwiaGVpZ2h0XCI6MzQ3LFwiZGVmYXVsdFwiOlwiaHR0cHM6XFxcL1xcXC9zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbVxcXC9wcGx1cy5pbWFnZXMuZGV4ZXJ0by5jb21cXFwvdXBsb2Fkc1xcXC8yMDE5XFxcLzExXFxcLzExMjE0OTQzXFxcL3BsYWNlaG9sZGVyLmpwZ1wifSIsImhhc2giOiI5N2U5NTg3ZWNmYmY1MGY3ODEzYjI4NGY4OTEwOTk2NjAxN2I2ZDFhIn0=/dota-2-s-the-international-10-delayed-untilLikely-2021.jpg",
+          "link": "/dota-2/dota-2s-the-international-10-delayed"
+      },
+      "matches": [
+	        {
+	          "teamname1": "Na'Vi",
+	          "teamlogo1": "https://cdn.escharts.com/uploads/public/588/a1f/515/thumb_315_0x72_0_0_auto.png",
+	          "teamname2": "Secret",
+	          "teamlogo2": "https://upload.wikimedia.org/wikipedia/ru/7/71/Team_Secret_logo_notext.png",
+	          "game": "DotA 2",
+	          "tournament": "WePlay Pushka League",
+	          "time": "1 Apr 20:30",
+	          "tournamentlogo": "https://escharts.com/themes/responsiv-flat/assets/images/products/trust/weplay1.png"
+	        },
+	        {
+	          "teamname1": "",
+	          "teamlogo1": "",
+	          "teamname2": "",
+	          "teamlogo2": "",
+	          "game": "",
+	          "tournament": "",
+	          "time": "",
+	          "tournamentlogo": ""
+	        }
+	      ]
+}
