@@ -1,23 +1,23 @@
 import React from 'react';
 import './asideSchedule.css'
 
-const Match = ({ matchDict }) => (
+const Match = ({ matchData }) => (
   <div className="match">
     <div className="team1">
-      <img src={matchDict.teamlogo1}/>
-      <p>{matchDict.teamname1}</p>
+      <img src={matchData.team1.logo}/>
+      <p>{matchData.team1.name}</p>
     </div>
     <div className="team2">
-      <img src={matchDict.teamlogo2}/>
-      <p>{matchDict.teamname2}</p>
+      <img src={matchData.team2.logo}/>
+      <p>{matchData.team2.name}</p>
     </div>
     <div className="match-info">
       <div className="match-info-time">
-        <p>{matchDict.time}</p>
+        <p>{matchData.time}</p>
       </div>
       <div className="match-info-tournament">
-        <p>{matchDict.tournament}</p>
-        <img src={matchDict.tournamentlogo}/>
+        <p>{matchData.tournament}</p>
+        <img src={matchData.tournamentlogo}/>
       </div>
     </div>
   </div>
